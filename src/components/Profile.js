@@ -8,7 +8,7 @@ function Profile({ theme }) {
 
   function UserProvider({ children }) {
     const currentUser = {
-      name: 'Duane',
+      name: 'Diana',
       interests: ['Coding', 'Biking', "Words ending in 'ing'"],
     };
     return <UserContext.Provider value={currentUser}>{children}</UserContext.Provider>;
